@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/npena9/Documents/GitHub/VHDL-For-Engineers/Freestyle/iDK/stuff.xst" -ofn "C:/Users/npena9/Documents/GitHub/VHDL-For-Engineers/Freestyle/iDK/stuff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-2 stuff.ngc stuff.ngd  

@@ -1,0 +1,2 @@
+vhdl isim_temp "compare_vect.vhd"
+vhdl isim_temp "testbench.vhd"

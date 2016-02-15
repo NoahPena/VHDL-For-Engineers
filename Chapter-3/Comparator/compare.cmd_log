@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/npena9/Documents/GitHub/VHDL-For-Engineers/Chapter-3/Comparator/compare.xst" -ofn "C:/Users/npena9/Documents/GitHub/VHDL-For-Engineers/Chapter-3/Comparator/compare.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-2 compare.ngc compare.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o compare_map.ncd compare.ngd compare.pcf 
+par -w -intstyle ise -ol high -mt off compare_map.ncd compare.ncd compare.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml compare.twx compare.ncd -o compare.twr compare.pcf 
+xst -intstyle ise -ifn "C:/Users/npena9/Documents/GitHub/VHDL-For-Engineers/Chapter-3/Comparator/compare.xst" -ofn "C:/Users/npena9/Documents/GitHub/VHDL-For-Engineers/Chapter-3/Comparator/compare.syr" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/npena9/Documents/GitHub/VHDL-For-Engineers/Chapter-3/Four-bit-comparator/testbench_isim_beh.exe" -prj "C:/Users/npena9/Documents/GitHub/VHDL-For-Engineers/Chapter-3/Four-bit-comparator/testbench_beh.prj" "work.testbench" 

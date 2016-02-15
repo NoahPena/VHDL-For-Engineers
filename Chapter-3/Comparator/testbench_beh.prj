@@ -1,0 +1,2 @@
+vhdl work "compare.vhd"
+vhdl work "testbench.vhd"
